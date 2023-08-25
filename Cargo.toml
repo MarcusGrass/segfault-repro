@@ -1,0 +1,11 @@
+[package]
+name = "argon-test"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argon2 = "0.5.1"
+tiny-std = { version = "0.1.0", features = ["global-allocator", "executable"] }
+unix-print = "0.1.0"
